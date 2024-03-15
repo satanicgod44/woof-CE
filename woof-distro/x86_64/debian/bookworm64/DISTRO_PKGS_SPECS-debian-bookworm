@@ -132,7 +132,7 @@ yes|xorg_dri|libgl1-mesa-dri,mesa-vulkan-drivers,mesa-utils|exe,dev,doc,nls||dep
 yes|xz|xz-utils,liblzma5,liblzma-dev|exe,dev,doc,nls||deps:yes
 yes|zip|zip|exe,dev>null,doc,nls||deps:yes
 yes|zstd|zstd|exe,dev,doc,nls||deps:yes
-yes|vlc|vlc,vlc.bin|exe,dev,doc,nls||deps:yes
+yes|vlc|vlc|exe,dev,doc,nls||deps:yes
 yes|p7zip-rar|p7zip-rar,p7zip-full|exe,dev,doc,nls||deps:yes
 yes|openvpn|openvpn|exe,dev,doc,nls||deps:yes
 '
