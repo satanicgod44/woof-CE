@@ -1,5 +1,4 @@
 JWMDesk-3.6|JWMDesk|3.6||Desktop|936K||JWMDesk-3.6.pet||Manage JWM desktop||||
-ListDD-2.2|ListDD|2.2||Utility|56K||ListDD-2.2.pet||List dynamic dependencies||||
 PackIt-packit-1.15|PackIt|packit-1.15||Utility|112K||packit-1.15.pet||Archiving/Compressing GUI||||
 Pup-Kview-1.4|Pup-Kview|1.4||System|64K||Pup-Kview-1.4.pet||Kernel module viewer||||
 Pup-SysInfo-3.6|Pup-SysInfo|3.6||System|256K||Pup-SysInfo-3.6.pet||System information utility||||
@@ -10,7 +9,6 @@ PupMenu-6.3.1|PupMenu|6.3.1||Utility|429K||PupMenu-6.3.1.pet||Find, launch or ed
 Qemu_Control_Center-0.7|Qemu_Control_Center|0.7||System|44K||Qemu_Control_Center-0.7.pet||PC Emulator||||
 SaveFolderBackup-1.2|SaveFolderBackup|1.2||Utility|44K||SaveFolderBackup-1.2.pet||Save folder backup and restore||||
 UrxvtControl-1.4|UrxvtControl|1.4||Utility|76K||UrxvtControl-1.4.pet||Urxvt configuration||||
-YASSM-4.5|YASSM|4.5||Network|72K||YASSM-4.5.pet||Mounts Samba shares||||
 acpid-busibox-4|acpid-busibox|4||BuildingBlock|120K||acpid-busibox-4.pet||acpi deamon with dialog box and lid supend||||
 bbwireless-0.1-noarch|bbwireless|0.1-noarch||Network|88K||bbwireless-0.1-noarch.pet||BBwireless network manager||||
 bones-0.2.2|bones|0.2.2||Develop|44K||bones-0.2.2.pet|+gtkdialog3,+openssh,+wget,+gftp,+xdelta3|simple project version control||||
@@ -87,7 +85,6 @@ firmware_zd1201-170511|firmware_zd1201|170511||BuildingBlock|164K||firmware_zd12
 fix_pi_overscan-0.3-rpi_all|fix_pi_overscan|0.3-rpi_all||Desktop|68K||fix_pi_overscan-0.3-rpi_all.pet||Pi Overscan or Underscan||||
 frisbee-1.4.4|frisbee|1.4.4||Network|280K||frisbee-1.4.4.pet|+gtkdialog&ge0.8.4|Frisbee network manager||||
 frugalpup-41|frugalpup|41||Setup|3280K||frugalpup-41.pet||FrugalPup - flexible frugal installer||||
-get_libreoffice-0.43|get_libreoffice|0.43||Document|82K||get_libreoffice-0.43.pet||Get LibreOffice download and install LibreOffice||||
 grub2_efi-2.02.2018.08-fd64|grub2_efi|2.02.2018.08-fd64||BuildingBlock|5588||grub2_efi-2.02.2018.08-fd64.pet||No description provided||||
 grub4dos-0.4.4.v1.9.4|grub4dos|0.4.4.v1.9.4||System|480K||grub4dos-0.4.4.v1.9.4.pet||Grub4Dos bootloader config||precise||
 grub4dos_u-0.4.4.v1.9.4|grub4dos_u|0.4.4.v1.9.4||System|476K||grub4dos_u-0.4.4.v1.9.4.pet||Grub4Dos bootloader config||||
@@ -158,25 +155,10 @@ orientxauto-0.2-noarch|orientxauto|0.2-noarch||Desktop;settings|64K||orientxauto
 pArchive-2.2.1|pArchive|2.2.1||Utility|154K||pArchive-2.2.1.pet||Archive manager||||
 pAudio_2barks_alt_fanfare-1|pAudio_2barks_alt_fanfare|1||BuildingBlock|32K||pAudio_2barks_alt_fanfare-1.pet||Fanfare alternative sound for 2barks.au||||
 pRun-1.6|pRun|1.6||Utility|160K||pRun-1.6.pet||Run dialog utility||||
-pavrecord-0.9.6-1|pavrecord|0.9.6-1||Internet|124K||pavrecord-0.9.6-1.pet||Pavrecord Audio-Video recorder/player||||
-pavrecord-precise-0.9.4|pavrecord-precise|0.9.4||Internet|116K||pavrecord-precise-0.9.4.pet|+ffmpeg,+ffplay,+gtkdialog3,+lame,+alsa-utils|Pavrecord Audio-Video recorder/player||||
-pawdioconverter-1.3|pawdioconverter|1.3||Multimedia|212K||pawdioconverter-1.3.pet|+gtkdialog3,+sox|PawdioConverter audio conversion||||
-pburn-4.3.16|pburn|4.3.16||Multimedia|396K||pburn-4.3.16.pet|+gtkdialog&ge0.8.4,+coreutils,+cdrtools&ge3.0,+dvd+rw-tools,+ffmpeg,+libcdio,+pfilesearch,+dvdauthor,+vobcopy,+vamps,+vcdimager|pBurn CD/DVD/Blu-ray writer|||official|
-pcd-1.5|pcd|1.5||Multimedia|72K||pcd-1.5.pet|+gtkdialog3,+cdrkit|pCD CD-audio player||||
-pcdripper-3.9.3|pcdripper|3.9.3||Multimedia|96K||pcdripper-3.9.3.pet|+xdialog,+gtkdialog3,+cdrkit|Audio CD song ripper||||
 pclock-0.8.2|pclock|0.8.2||Personal|80K||pclock-0.8.2.pet||pClock Time tools||||
-pctorrent-1.5|pctorrent|1.5||Internet|68K||pctorrent-1.5.pet|+ctorrent,+gtkdialog3|Pcreatetorrent torrent creator||||
-pcurlftp_file_sharing-0.2-1|pcurlftp_file_sharing|0.2-1||Network|64K||pcurlftp_file_sharing-0.2-1.pet|+pure-ftpd,+curlftpfs,+mpscan,+xdialog,+fuse|connect to ftp servers||||
 pdiag-20171205|pdiag|20171205||Utility|80K||pdiag-20171205.pet||Consolidated diagnostic data collector||||
-pdvdrsab-0.2|pdvdrsab|0.2||Multimedia|56K||pdvdrsab-0.2.pet|+gtkdialog3,+dvdauthor,+vobcopy,+vamps,+ffmpeg|Pdvdrsab rip/shrink/author/burn||||
-peasydiff-1.4|peasydiff|1.4||Setup|44K||peasydiff-1.4.pet||compare two files/folders||||
-peasydisc-4.1|peasydisc|4.1||Multimedia|80K||peasydisc-4.1.pet||PeasyDisc||||
-peasyglue-2.0|peasyglue|2.0||Graphic|68K||peasyglue-2.0.pet||Image joiner||||
 peasypdf-4.2|peasypdf|4.2||Document|56K||peasypdf-4.2.pet||Manipulate PDF documents||||
 peasyport-2.8w|peasyport|2.8w||BuildingBlock|48||peasyport-2.8w.pet||No description provided||||
-peasyprint-3.0|peasyprint|3.0||Graphic|48K||peasyprint-3.0.pet||PeasyPrint graphic/photo printing||||
-peasyscale-2.0|peasyscale|2.0||Graphic|68K||peasyscale-2.0.pet||graphic resizer|slackware|14.0||
-peasyscan-2.12|peasyscan|2.12||Graphic|172K||peasyscan-2.12.pet||PeasyScan simple image scanner|slackware|14.0||
 peasywifi-4.5|peasywifi|4.5||Network|136K||peasywifi-4.5.pet||Reliable WiFi connection manager|slackware|14.0||
 pequalizer-1.0.0|pequalizer|1.0.0||Multimedia|76K||pequalizer-1.0.0.pet|+alsaequal,+caps|pequalizer Graphical Equalizer||||
 pfetch-0.9.2|pfetch|0.9.2||Internet|60K||pfetch-0.9.2.pet||Pfetch secure downloader||||
@@ -185,16 +167,11 @@ pfind-6.3|pfind|6.3||Filesystem|164K||pfind-6.3.pet|+gtkdialog,+pfilesearch|pFin
 pgprs2-0.5|pgprs2|0.5||Network|60K||pgprs2-0.5.pet|+ppp|Connect via GPRS or 3G modem||||
 phash-2|phash|2||Desktop|24K||phash-2.pet|+rox_filer|adds to rox right-click menu, calc md5sum/sha1sum of a file||||
 pkg-1.9.22-noarch|pkg|1.9.22-noarch||Setup|1980K||pkg-1.9.22-noarch.pet||Pkg - command-line package manager||||
-playmusic_mplayer-0.1.7-noarch|playmusic_mplayer|0.1.7-noarch||Multimedia|164K||playmusic_mplayer-0.1.7-noarch.pet||A simple lightweight GUI for audio players||||
 pmaterial_icons-0.2|pmaterial_icons|0.2||BuildingBlock|12732K||pmaterial_icons-0.2.pet||icons for puppy loosely based on material design||||
 pmetatagger-2.2|pmetatagger|2.2||Multimedia|100K||pmetatagger-2.2.pet|+gtkdialog3,+id3lib,+vorbis-tools|meta tagger||||
 pmirrorget-0.2.1-1|pmirrorget|0.2.1-1||Internet|32K||pmirrorget-0.2.1-1.pet|+gtkdialog4|Website File Grabber||||
-pmusic-5.6.2|pmusic|5.6.2||Multimedia|1492K||pmusic-5.6.2.pet|+ffpmeg&ge1.2,+gtkdialog&ge0.8.4,+alsa,+bash&ge4.0|-player -manager -grabber||||
-pnethood-0.7.i18n|pnethood|0.7.i18n||Network|108K||pnethood-0.7.i18n.pet|+nbtscan,+mountcifs,+samba_client|connect to samba shares||||
 pplog-1.1.3-1|pplog|1.1.3-1||Personal|184K||pplog-1.1.3-1.pet|+perl_tiny,+httpd|PPLOG personal blog||||
 pprocess-2.3.2|pprocess|2.3.2||System|56K||pprocess-2.3.2.pet|+gtkdialog4|Pprocess process manager||||
-precord-8.1.5|precord|8.1.5||Multimedia|96K||precord-8.1.5.pet|+ffmpeg,+gtkdialog3,+lame,+alsa-utils|Precord mp3,ogg,wav recorder/player||||
-precord-precise-8.1.5|precord-precise|8.1.5||Multimedia|104K||precord-precise-8.1.5.pet|+ffmpeg,+gtkdialog3,+lame,+alsa-utils|Precord mp3,ogg,wav recorder/player||||
 prename-0.7|prename|0.7||Filesystem|48K||prename-0.7.pet|+gtkdialog3|batch file renamer||||
 programchooser-0.3|programchooser|0.3||BuildingBlock|76K||programchooser-0.3.pet|+gtkdialog3|used by wallpaper-setter||||
 pschedule-1.1.6|pschedule|1.1.6||System|80K||pschedule-1.1.6.pet|+gtkdialog,+cron|Pschedule task on time||||
@@ -212,24 +189,16 @@ puppy-podcast-grabber-1.2|puppy-podcast-grabber|1.2||Internet;transfer|80K||pupp
 puppy_clock-0.5.2-1|puppy_clock|0.5.2-1||Personal|112K||puppy_clock-0.5.2-1.pet||puppyClock Time tools||||
 puppy_flat_icons-0.5|puppy_flat_icons|0.5||BuildingBlock|12732K||puppy_flat_icons-0.5.pet||flat puppy icon theme||||
 puppy_standard_icons-0.9|puppy_standard_icons|0.9||BuildingBlock|12584K||puppy_standard_icons-0.9.pet||puppy standard icons||||
-pupradio-0.19|pupradio|0.19||Multimedia|72K||pupradio-0.19.pet||pupRadio/pupTelly streaming media||||
-pupradio_NLS-0.19|pupradio_NLS|0.19||BuildingBlock|80K||pupradio_NLS-0.19.pet||pupradio translations||||
 pupsaveconfig-2.2.6|pupsaveconfig|2.2.6||Setup|196K||pupsaveconfig-2.2.6.pet||PupSave personal storage setup||||
-puptv-0.3-1|puptv|0.3-1||Multimedia|96K||puptv-0.3-1.pet|+gxine|watch streaming television||||
-pwget-0.2|pwget|0.2||Internet|56K||pwget-0.2.pet|+wget,+gtkdialog3|file downloader frontend for wget||||
-pwsget-0.1-1|pwsget|0.1-1||Internet;transfer|40K||pwsget-0.1-1.pet|+gtkdialog3|Pwsget secure file downloader||||
+pwget-0.2|pwget|0.2||Internet|56K||pwget-0.2.pet|+wget,+gtkdialog3|file downloader frontend for wget||||pwsget-0.1-1|pwsget|0.1-1||Internet;transfer|40K||pwsget-0.1-1.pet|+gtkdialog3|Pwsget secure file downloader||||
 radeon_firmware-120829|radeon_firmware|120829||System|308K||radeon_firmware-120829.pet||radeon video firmware||||
 radeon_firmware_new-140109|radeon_firmware_new|140109||BuildingBlock|2836K||radeon_firmware_new-140109.pet||radeon firmware||||
 rox-filer-translations-16woodenshoe-noarch_xenial|rox-filer-translations|16woodenshoe-noarch_xenial||Filesystem|3192||rox-filer-translations-16woodenshoe-noarch_xenial.pet|+rox-filer|rox-filer pot and po files||||
-screeny-0.7-noarch|screeny|0.7-noarch||Graphic|32K||screeny-0.7-noarch.pet||Screeny Capture Windows and Fullscreen||||
-sfs_manager-0.18|sfs_manager|0.18||Setup|56K||sfs_manager-0.18.pet||download and install sfs files||||
-shareinternet-2.2.4-1|shareinternet|2.2.4-1||Network|136K||shareinternet-2.2.4-1.pet|+gtkdialog3,+dnsmasq|run puppy as a router||||
+sfs_manager-0.18|sfs_manager|0.18||Setup|56K||sfs_manager-0.18.pet||download and install sfs files||||shareinternet-2.2.4-1|shareinternet|2.2.4-1||Network|136K||shareinternet-2.2.4-1.pet|+gtkdialog3,+dnsmasq|run puppy as a router||||
 snap2-4.27|snap2|4.27||Utility|208K||snap2-4.27.pet|+rsync|Snap2 snapshot backup||||
 ssl-certificate-fix-0.0.1|ssl-certificate-fix|0.0.1||BuildingBlock|8K||ssl-certificate-fix-0.0.1.pet||ca-certificates config file||||
 sys-info-1.5.2-noarch|sys-info|1.5.2-noarch||System|176K||sys-info-1.5.2-noarch.pet||System Information||||
-tas-1.15|tas|1.15||X-GraphicUtility|40K||tas-1.15.pet||Screenshot utility||||
-tas_NLS-1.15|tas_NLS|1.15||BuildingBlock|36K||tas_NLS-1.15.pet||no description provided||||
-template-samba_debian-0.1-noarch|template-samba_debian|0.1-noarch||Network|168K||template-samba_debian-0.1-noarch.pet|+samba|Samba Simple Management||||
+tas_NLS-1.15|tas_NLS|1.15||BuildingBlock|36K||tas_NLS-1.15.pet||no description provided||||template-samba_debian-0.1-noarch|template-samba_debian|0.1-noarch||Network|168K||template-samba_debian-0.1-noarch.pet|+samba|Samba Simple Management||||
 uextract-3.32|uextract|3.32||Utility|484K||uextract-3.32.pet||Ultimate Extractor||||
 updates_notice-0.2|updates_notice|0.2||Setup|36K||updates_notice-0.2.pet||Update notices - Slackware bugfixes||||
 urxvtset-0.5.1|urxvtset|0.5.1||Desktop;appearance|28K||urxvtset-0.5.1.pet|+yad,+urxvt|UrxvtSet setup terminal emulator||||
