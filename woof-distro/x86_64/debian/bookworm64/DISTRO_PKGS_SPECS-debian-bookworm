@@ -202,7 +202,7 @@ yes|fonts-dejavu-core|fonts-dejavu-core|exe>null,dev>null,doc>null,nls>null
 yes|fonts-liberation2|fonts-liberation2|exe,dev,doc,nls||deps:yes
 yes|fonts-noto|fonts-noto-core,fonts-noto-mono,fonts-noto-cjk,fonts-noto-color-emoji|exe,dev,doc,nls||deps:yes
 yes|galculator|galculator|exe,dev>null,doc,nls||deps:yes
-no|goffice|libgoffice-0.10-dev|exe,dev,doc,nls||deps:yes
+yes|goffice|libgoffice-0.10-dev|exe,dev,doc,nls||deps:yes
 yes|gpart|gpart|exe,dev,doc,nls||deps:yes
 yes|gparted-deps|libgtkmm-3.0-dev,libparted-dev|exe,dev,doc,nls||deps:yes
 yes|groff|groff,groff-base|exe,dev,doc,nls||deps:yes
