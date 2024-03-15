@@ -132,6 +132,9 @@ yes|xorg_dri|libgl1-mesa-dri,mesa-vulkan-drivers,mesa-utils|exe,dev,doc,nls||dep
 yes|xz|xz-utils,liblzma5,liblzma-dev|exe,dev,doc,nls||deps:yes
 yes|zip|zip|exe,dev>null,doc,nls||deps:yes
 yes|zstd|zstd|exe,dev,doc,nls||deps:yes
+yes|vlc|vlc,vlc.bin|exe,dev,doc,nls||deps:yes
+yes|p7zip-rar|p7zip-rar,p7zip-full|exe,dev,doc,nls||deps:yes
+yes|openvpn|openvpn|exe,dev,doc,nls||deps:yes
 '
 
 # hack: we need DISTRO_TARGETARCH but PPM needs to be able to source this file
@@ -156,7 +159,7 @@ PKGS_SPECS_TABLE="$PKGS_SPECS_TABLE
 yes|gtk+|libgtk2.0-0,libgtk2.0-dev|exe,dev,doc,nls||deps:yes
 yes|gtk2-engines-pixbuf|gtk2-engines-pixbuf|exe,dev,doc,nls||deps:yes
 yes|unclutter|unclutter|exe,dev>null,doc,nls||deps:yes
-yes|xclip|xclip|exe,dev,doc,nls||deps:yes
+no|xclip|xclip|exe,dev,doc,nls||deps:yes
 yes|xdotool|xdotool|exe,dev,doc,nls||deps:yes
 yes|xorg_base_new|libglapi-mesa,libx11-xcb1,xfonts-utils,mesa-common-dev,libgl1,x11-xkb-utils,x11-xserver-utils,x11-utils,x11-apps,fontconfig,fontconfig-config,libfontconfig-dev,libdrm2,libdrm-common,libdrm-dev,libdrm-radeon1,libdrm-amdgpu1,libdrm-nouveau2,libdrm-intel1,libepoxy0,libepoxy-dev,libfontconfig1,libfontconfig1-dev,libfontenc1,libfontenc-dev,libgl-dev,libglu1-mesa,libglu1-mesa-dev,libice6,libice-dev,libsm6,libsm-dev,libunwind8,libunwind-dev,libx11-6,libx11-dev,libx11-data,libxau6,libxau-dev,libxaw7,libxcomposite1,libxcomposite-dev,libxcursor1,libxcursor-dev,libxdamage1,libxdamage-dev,libxdmcp6,libxdmcp-dev,libxext6,libxext-dev,libxfixes3,libxfixes-dev,libxfont2,libxfont-dev,libxft2,libxft-dev,libxi6,libxi-dev,libxinerama1,libxkbfile1,libxkbfile-dev,libxmu6,libxmu-dev,libxmuu1,libxpm4,libxpm-dev,libxrandr2,libxrandr-dev,libxrender1,libxrender-dev,libxt6,libxt-dev,libxtst6,libxtst-dev,libxv1,libxxf86dga1,libxxf86vm1,xkb-data,xinput,xbitmaps,xauth,x11-common|exe,dev,doc,nls||deps:yes
 yes|xserver-xorg-video-vmware|xserver-xorg-video-vmware|exe>null,dev>null,doc>null,nls>null # needs libxatracker2
@@ -178,21 +181,21 @@ else
 	PKGS_SPECS_TABLE="
 yes|gcc|gcc|exe,dev>exe,doc,nls||deps:yes # must be first
 $PKGS_SPECS_TABLE
-yes|abiword-deps|libboost-dev,libwv-dev,libenchant-2-dev|exe,dev,doc,nls||deps:yes
+no|abiword-deps|libboost-dev,libwv-dev,libenchant-2-dev|exe,dev,doc,nls||deps:yes
 yes|bash-completion|bash-completion|exe,dev>null,doc,nls||deps:yes
 yes|binutils|binutils|exe,dev>exe,doc,nls||deps:yes
-yes|blueman|blueman|exe,dev,doc,nls||deps:yes
-yes|bluez|bluez,bluez-obexd|exe,dev,doc,nls||deps:yes
+no|blueman|blueman|exe,dev,doc,nls||deps:yes
+no|bluez|bluez,bluez-obexd|exe,dev,doc,nls||deps:yes
 yes|breeze-cursor-theme|breeze-cursor-theme|exe,dev,doc,nls||deps:yes
-yes|claws-mail-deps|libetpan-dev|exe,dev,doc,nls||deps:yes
+no|claws-mail-deps|libetpan-dev|exe,dev,doc,nls||deps:yes
 yes|connman|connman|exe,dev,doc,nls||deps:yes
-yes|cups|cups,cups-bsd,printer-driver-cups-pdf,foomatic-db-compressed-ppds,libcups2-dev|exe,dev,doc,nls||deps:yes
+no|cups|cups,cups-bsd,printer-driver-cups-pdf,foomatic-db-compressed-ppds,libcups2-dev|exe,dev,doc,nls||deps:yes
 yes|dbus-x11|dbus-x11|exe,dev,doc,nls||deps:yes
 yes|debconf|debconf|exe,dev,doc,nls
-yes|deadbeef-deps|libjansson-dev,libmpg123-dev,libcddb2-dev,libcdio-paranoia-dev|exe,dev,doc,nls||deps:yes
+no|deadbeef-deps|libjansson-dev,libmpg123-dev,libcddb2-dev,libcdio-paranoia-dev|exe,dev,doc,nls||deps:yes
 yes|dkms|dkms|exe,dev>exe,doc,nls||deps:yes
 yes|epdfview-deps|libpoppler-glib-dev|exe,dev,doc,nls||deps:yes
-yes|ExpenseTracker-deps|libsqlite3-dev|exe,dev,doc,nls||deps:yes
+no|ExpenseTracker-deps|libsqlite3-dev|exe,dev,doc,nls||deps:yes
 yes|firefox-esr|firefox-esr,firefox-esr-l10n-all|exe,dev,doc,nls||deps:yes
 yes|flatpak|flatpak|exe,dev,doc,nls||deps:yes
 yes|fonts-dejavu-core|fonts-dejavu-core|exe>null,dev>null,doc>null,nls>null
@@ -221,7 +224,7 @@ yes|python|python-is-python3,python3|exe,dev,doc,nls||deps:yes
 yes|python3-pkg-resources|python3-pkg-resources|exe,dev,doc,nls||deps:yes # dependency of gdebi
 yes|rsync|rsync|exe,dev,doc,nls||deps:yes
 yes|sensible-utils|sensible-utils|exe,dev,doc,nls||deps:yes
-yes|transmission-deps|libevent-dev,libnatpmp-dev,libminiupnpc-dev|exe,dev,doc,nls||deps:yes
+no|transmission-deps|libevent-dev,libnatpmp-dev,libminiupnpc-dev|exe,dev,doc,nls||deps:yes
 yes|xdg-desktop-portal-gtk|xdg-desktop-portal-gtk|exe,dev,doc,nls||deps:yes
 yes|xdg-utils|xdg-utils|exe,dev,doc,nls||deps:yes
 yes|xournalpp-deps|libsndfile1-dev,portaudio19-dev,libzip-dev|exe,dev,doc,nls||deps:yes
@@ -230,7 +233,7 @@ fi
 
 if [ "$DISTRO_VARIANT" != "retro" ]; then
 	PKGS_SPECS_TABLE="$PKGS_SPECS_TABLE
-yes|mpv-deps|libavcodec-dev,libavfilter-dev,libass-dev,libva-dev,libvdpau-dev,liblua5.2-dev,libdvdnav-dev,libdvdread-dev,libbluray-dev,libwayland-cursor0,libxss-dev,libxpresent-dev,libxv-dev|exe,dev,doc,nls||deps:yes
+no|mpv-deps|libavcodec-dev,libavfilter-dev,libass-dev,libva-dev,libvdpau-dev,liblua5.2-dev,libdvdnav-dev,libdvdread-dev,libbluray-dev,libwayland-cursor0,libxss-dev,libxpresent-dev,libxv-dev|exe,dev,doc,nls||deps:yes
 "
 fi
 
